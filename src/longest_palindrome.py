@@ -45,6 +45,7 @@ def get_longest_palindrome(input_string):
             start_index += 1
             if(is_palindrome(window_string)):
                 return window_string
+    # Time complexity would be O(n^2) because of the double for loop
 
 
 @time_decorator

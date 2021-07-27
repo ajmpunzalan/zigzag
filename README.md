@@ -13,3 +13,8 @@ How to run the scripts
 3. Inside that folder, git clone - https://github.com/ajmpunzalan/zigzag.git
 4. Running the python scripts:
       python3 src/{scriptname}.py -i='this is my input string'
+
+How to run the test scripts
+1. Go to src folder
+2. Inside the src folder run:
+      python3 -m unittest discover ../tests -v

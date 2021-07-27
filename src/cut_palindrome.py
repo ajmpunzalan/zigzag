@@ -46,6 +46,7 @@ def cut_palindrome(input_string):
     if(left_string and right_string):
         return cut_palindrome(left_string) + cut_palindrome(right_string) + 2
     return cut_palindrome(left_string or right_string) + 1
+    # Time complexity would be O(n^2) as well because of the get_longest_palindrome call
 
 
 @time_decorator
